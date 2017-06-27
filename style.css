@@ -1,3 +1,6 @@
+html {
+  box-sizing: 'border-box'
+}
 .center {
   text-align: center;
 }
@@ -21,8 +24,10 @@ img {
   bottom: 0;
 }
 #player-input {
-
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #submit {
-  
+
 }
