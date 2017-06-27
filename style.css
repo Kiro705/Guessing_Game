@@ -10,10 +10,19 @@ img {
   width: 200px;
   height: 100px;
 }
+.guess{
+
+}
 #footer {
   width: 100%;
   border-top: solid 2px black;
   background-color: white;
   position: fixed;
   bottom: 0;
+}
+#player-input {
+
+}
+#submit {
+  
 }
