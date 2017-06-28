@@ -3,10 +3,11 @@
   <head>
     <title>Guessing Game</title>
     <link type='text/css' rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
 
-      <div id='app' class='center'>
+      <div id='app' class='center container'>
 
         <div id='headers'>
           <h1>The Guessing Game</h1>
@@ -16,7 +17,7 @@
         <div id='main'>
           <div id='input-parent'>
             <input id='player-input' placeholder="#" maxlength='3' autofocus=autofocus></input>
-            <button id='submit'>Go!</button>
+            <button id='submit' type="button" class="btn btn-lg btn-success">Go!</button>
           </div>
 
           <div id='guesses'>
@@ -30,25 +31,25 @@
           </div>
 
           <div id="menu-btns">
-            <button>Reset</button>
-            <button>Hint!</button>
+            <button type="button" class="btn btn-warning">Reset</button>
+            <button type="button" class="btn btn-info">Hint!</button>
           </div>
         </div>
       </div>
 
 
 
-    <div id='footer'>
-        <div>
-          <div class=''>
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-sm-4'>
             <img src='fa-logo@2x.png'></img>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <h4>Project by Jackson Sui</h4>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <img src='grace_hopper_academy.png'></img>
           </div>
 
