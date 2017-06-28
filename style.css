@@ -14,7 +14,11 @@ img {
   height: 100px;
 }
 .guess{
-
+  display: inline;
+  border: 2px solid darkgray;
+  border-radius: 5px;
+  font-size: 60px;
+  padding: 0 25px;
 }
 #footer {
   width: 100%;
@@ -27,7 +31,4 @@ img {
   width: 160px;
   margin-left: auto;
   margin-right: auto;
-}
-#submit {
-
 }
